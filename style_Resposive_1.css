@@ -1,3 +1,9 @@
+@media screen and (max-width:1441px) {
+  .header-menu ul li{
+    margin: 10px 4px 0px 20px;
+  }
+}
+
 /* ++++Màn 1310 ++++ */
  @media screen and (max-width:1310px) {
   .header-menu{
@@ -245,7 +251,7 @@ max-width: 100%;
   flex-direction: column;
   display: none;
   width:500px ;
-  height: 100px;
+  height: 80px;
   text-align: center;
   background-color: rgba(202, 238, 241, 0.376);
   position: absolute;
