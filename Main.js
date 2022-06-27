@@ -108,7 +108,7 @@ $(document).ready(function(){
                 nextArrow: false,
                 arrows:false,
                 autoplay: true,
-                autoplaySpeed :1000,
+                autoplaySpeed :4000,
                 slidesToShow:3,
                 slidesToScroll: 3,
                 infinite:true,
