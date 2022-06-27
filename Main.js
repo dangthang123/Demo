@@ -1,29 +1,4 @@
-// window.addEventListener("load", function(){
-// const slider =document.querySelector(".slide-show");
-// const sliderMain =document.querySelector(".slide-main");
-// const sliderItem=document.querySelectorAll(".container-footer-top-list");
-// const sliderDotItem=document.querySelectorAll(".slider-dot-item");
-// const sliderItemWidth= sliderItem[0].offsetWidth;
-//     // console.log("sliderItemWidth",sliderItemWidth);
-// const sliderLenght=sliderItem.length;
-// // sliderMain.style.width=`${sliderLenght * sliderItemWidth}px`;
-//  let postionX=0;
-//  let index=0;
- 
-    // [...sliderDotItem].forEach(item =>item.addEventListener("click",function(e){
-    //     [...sliderDotItem].forEach(el=>el.classList.remove("active"));
-    //     e.target.classList.add("active");
-    //     const slideIndex=parseInt(e.target.dataset.index);
-    //     index = slideIndex;
-    //     postionX = -1 *(index * sliderItemWidth);
-    //     console.log(index);
-    //     sliderMain.style=`transform: translateX(${postionX }px)`;
-        
-//     }));
 
-        
-
-// });
 // Bắt sự kiện Click vào Icon
 $(document).ready(function(){
   $('#toggle-header-menu').click(function(){

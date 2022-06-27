@@ -245,7 +245,7 @@ max-width: 100%;
   flex-direction: column;
   display: none;
   width:500px ;
-  height: 106px;
+  height: 100px;
   text-align: center;
   background-color: rgba(202, 238, 241, 0.376);
   position: absolute;
@@ -380,9 +380,10 @@ max-width: 100%;
   #toggle-header-menu{
     z-index: 1;
     position: absolute;
-    left: -210px;
-    top: 28px;
-    font-size: 50px;
+    left: 163px;
+    top: 55px;
+    font-size: 45px;
+    padding-top: 0px;
   }
   .Wish-List{
     display: none;
@@ -403,6 +404,7 @@ max-width: 100%;
   width: 300px;
   height: auto;
   top: 45px;
+  right: -10px;
 }
 .Cart-item-tille{
   font-size:10px ;
@@ -425,7 +427,7 @@ max-width: 100%;
   z-index: 1;
   position: absolute;
   top: 5px;
-  left: 15%;
+  left: 2%;
 }
 .header-logo a li{
   width: 180px;
@@ -453,7 +455,7 @@ max-width: 100%;
     border-radius: 10px;
     z-index: 1;
     top: 149%;
-    right: -55%;
+    left: 20px;
     border: 1px solid;
      }
      .header-menu ul li{
@@ -461,11 +463,14 @@ max-width: 100%;
      }
      .header-Cart-wish{
       margin: 0;
-      z-index: 3;
-      top: 6px;
-      position: absolute;
-      left: 75%;
-      bottom: 5%;
+    z-index: 3;
+    top: 6px;
+    position: absolute;
+    left: 67%;
+    bottom: 5%;
+     }
+     #Wish{
+      margin-right: 17px;
      }
      .banner{
       margin-left: 0px;
@@ -572,6 +577,9 @@ max-width: 100%;
 
 /* +++ Màn 375++++ */
 @media screen and (max-width:376px)  {
+  .header-container-top{
+    height: 52px;
+  }
   #toggle-header-top{
     display: block;
     left: 94%;
@@ -583,10 +591,10 @@ max-width: 100%;
     font-size: 12px;
   }
   #toggle-header-menu{
-    margin-left: 24px;
+    left: 140px;
   }
   .header-menu ul{
-    right: -104%;
+    left: -5px;
   }
   #Wish{
     padding-top:2px;
@@ -596,8 +604,11 @@ max-width: 100%;
     width: 250px;
   }
   .Cart-List{
-    left: -225%;
+    left: -100%;
     width: 250px;
+  }
+  .header-Cart-wish{
+    left: 63%;
   }
   #search-box{
     background-color: rgb(212 222 222 / 0%);
@@ -626,7 +637,9 @@ max-width: 100%;
   .footer-top-item-comment-2 p{
     font-size: 11px;
   }
-
+  .fist-footer-widgets-about{
+    width: 80%;
+  }
   .about-top-2 p{
     padding-right: 0px;
   }
@@ -636,6 +649,9 @@ max-width: 100%;
 }
 .navigation-right ul{
   padding-left: 0px;
+}
+.navigation-top{
+  padding-top: 10px;
 }
 .fist-footer-widgets-location{
   width:85%;
@@ -677,18 +693,18 @@ max-width: 100%;
     left: 0%
   }
   .header-menu ul{
-    left: -16%;
-    top: 100%;
+    left: 249%;
+    top: 74%;
   }
   #toggle-header-menu{
-    top:-36%;
-    left: -57%;
+    top: 15%;
+    left: 543%;
     position: absolute;
   }
   .header-Cart-wish{
     top:8px;
     position: absolute;
-    left: 70%;
+    left: 58%;
   }
   .Wish-List{
     top: 47px;
@@ -696,7 +712,17 @@ max-width: 100%;
   }
   .Cart-List{
     top: 47px;
-    left: -208%;
+    left: -108%;
+  }
+  .product-list{
+    row-gap: 30px;
+  }
+  .container-footer-top{
+    margin-top: 50px;
+    height: 665px;
+  }
+  .container-footer-top-tille{
+    padding-top: 70px;
   }
 
   .fist-footer-widgets{
