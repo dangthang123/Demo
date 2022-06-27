@@ -112,6 +112,7 @@
 
 /* +++MÀN 1024++++ */
  @media screen and (max-width:1024px) {
+
   /* ===HEADER=== */
   #search-box #search-btn{
     background-color:rgba(202, 238, 241, 0.376);
@@ -180,14 +181,15 @@
   .tille-item hr {
    margin-left:480px ;
   }
+
   /* ===PRODUCT=== */
 .container-footer-top-item{
 max-width: 100%;
 }
 .container-footer-top-list{
  /* margin: 0 auto; */
- padding-left: 20px;
- padding-right: 20px;
+ padding-left: 10px;
+ padding-right: 10px;
 }
 .navigation-right ul{
   padding-left: 50px;
@@ -386,9 +388,9 @@ max-width: 100%;
   #toggle-header-menu{
     z-index: 1;
     position: absolute;
-    left: 163px;
+    left: -200px;
     top: 55px;
-    font-size: 45px;
+    font-size: 40px;
     padding-top: 0px;
   }
   .Wish-List{
@@ -417,6 +419,7 @@ max-width: 100%;
 }
 #search-box #search-text {
   font-size: 11px;
+  width: 127px;
 }
 
 #search-box #search-btn {
@@ -433,7 +436,7 @@ max-width: 100%;
   z-index: 1;
   position: absolute;
   top: 5px;
-  left: 2%;
+  left: 15%;
 }
 .header-logo a li{
   width: 180px;
@@ -453,27 +456,27 @@ max-width: 100%;
 
   .header-menu ul {
     display: none;
-    width: 170px;
-    height: 250px;
+    width: 150px;
+    height: 260px;
     text-align: left;
     background-color: #fff;
     position: absolute;
     border-radius: 10px;
     z-index: 1;
-    top: 149%;
-    left: 20px;
+    top: 167%;
+    left: -219px;
     border: 1px solid;
      }
-     .header-menu ul li{
+     /* .header-menu ul li{
       border-bottom:1px solid ;
-     }
+     } */
      .header-Cart-wish{
       margin: 0;
-    z-index: 3;
-    top: 6px;
-    position: absolute;
-    left: 67%;
-    bottom: 5%;
+      z-index: 3;
+      top: 6px;
+      position: absolute;
+      left: 77%;
+      bottom: 5%;
      }
      #Wish{
       margin-right: 17px;
@@ -482,10 +485,10 @@ max-width: 100%;
       margin-left: 0px;
      }
      .banner-container{
-      margin: 10px 0px 10px 20px;
+      margin: 10px 0px 10px 8px;
      }
-     .banner-left img{
-      width: 100%;
+     .banner-left a img{
+      width: 98%;
      }
      .banner-left-tille-1{
       z-index: 2;
@@ -505,8 +508,8 @@ max-width: 100%;
      .banner-right{
       width: 100%;
      }
-     .banner-right-top img{
-      width: 100%;
+     .banner-right-top a img{
+      width: 98%;
       height: auto;
      }
      .banner-right-top-tille-1{
@@ -516,8 +519,11 @@ max-width: 100%;
       font-size: 15px;
 
      }
-     .banner-right-bottom img{
-      width: 100%;
+     .banner-right-bottom{
+      margin-top: 20px;
+     }
+     .banner-right-bottom a img{
+      width: 98%;
       height: auto;
      }
      .banner-right-bottom-tille-1{
@@ -536,31 +542,78 @@ max-width: 100%;
       width: 100%;
      }
      .product-list{
-      width: 100%;
+      justify-content: center;
+    column-gap: 7px; 
+   
      }
+     .product-item{
+      width: 202px;
+     }
+     .product-item-img a img {
+      width: 100%;
+  }
+  .product-item-img-btn{
+    top: 60%;
+  }
      /* .footer-top-item-tille{
       display: none;
      } */
-     
-     
+     .fist-footer-widgets-about{
+      width: 92%;
+     }
+     .fist-footer-widgets-navigation{
+      width: 98%;
+     }
      .footer-top-item-img img {
       width: 100%;
      }
      .fist-footer-widgets{
-      padding-left: 40px;
+      padding-left: 10px;
      }
      .about-top-2 p{
       padding-right: 0px;
+      padding-left: 20px;
+     }
+     .about-top-1 h3{
+      text-align: center;
+     }
+     .about-top-2 .about-top-2-icon{
+      text-align: center;
      }
      .navigation-top{
       padding-top: 0px;
+     }
+     .navigation-top h3{
+      text-align: center;
+      padding-right: 40px;
+     }
+     .navigation-left-right{
+      column-gap: 64px;
+    padding-left: 45px;
+     }
+     .fist-footer-widgets-location{
+      width: 92%;
+     }.location-top{
+      margin-top: 20px;
+     }
+     .location-top h3{
+      text-align: center;
      }
      .location-bottom{
       padding-left: 10px;
      }
      .location-bottom-1{
       display: flex;
-      height: 55px;
+      height: 30px;
+     }
+     .location-bottom-1 i{
+      padding-bottom: 2px;
+     }
+     .location-bottom-2{
+      padding-left: 20px;
+     }
+     .location-bottom-3{
+      padding-left: 20px;
      }
      .location-list{
       padding-right:0px ;
@@ -593,14 +646,17 @@ max-width: 100%;
     cursor: pointer;
     z-index: 1;
   }
+  #img1{
+    font-size: 20px;
+  }
   #img1 p{
     font-size: 12px;
   }
   #toggle-header-menu{
-    left: 140px;
+    left: -183px;
   }
   .header-menu ul{
-    left: -5px;
+    left: -195px;
   }
   #Wish{
     padding-top:2px;
@@ -610,11 +666,11 @@ max-width: 100%;
     width: 250px;
   }
   .Cart-List{
-    left: -100%;
+    left: -240%;
     width: 250px;
   }
   .header-Cart-wish{
-    left: 63%;
+    left: 76%;
   }
   #search-box{
     background-color: rgb(212 222 222 / 0%);
@@ -624,6 +680,12 @@ max-width: 100%;
   }
  button.banner-left-tille-btn{
     left: 66%;
+  }
+  .product-item{
+    width: 174px;
+  }
+  .product-item-img-btn{
+    top: 55%;
   }
   .container-footer-top{
     height: 700px;
@@ -644,11 +706,13 @@ max-width: 100%;
     font-size: 11px;
   }
   .fist-footer-widgets-about{
-    width: 80%;
+    width: 93%;
   }
+ 
   .about-top-2 p{
     padding-right: 0px;
   }
+  
   .about-top-2 .about-top-2-icon {
     margin: 30px 0px 20px 0px;
     letter-spacing: 13px;
@@ -660,13 +724,14 @@ max-width: 100%;
   padding-top: 10px;
 }
 .fist-footer-widgets-location{
-  width:85%;
+  width:93%;
 }
 .location-top{
   padding-top: 15px;
 }
 .location-bottom-1{
   height: 57px;
+  padding-left: 18px;
 }
   .copyright-tille p{
     font-size: 12px;
@@ -699,18 +764,18 @@ max-width: 100%;
     left: 0%
   }
   .header-menu ul{
-    left: 249%;
+    left: -17%;
     top: 74%;
   }
   #toggle-header-menu{
     top: 15%;
-    left: 543%;
+    left: 7%;
     position: absolute;
   }
   .header-Cart-wish{
     top:8px;
     position: absolute;
-    left: 58%;
+    left: 74%;
   }
   .Wish-List{
     top: 47px;
@@ -718,10 +783,16 @@ max-width: 100%;
   }
   .Cart-List{
     top: 47px;
-    left: -108%;
+    left: -272%;
   }
   .product-list{
     row-gap: 30px;
+  }
+  .product-item{
+    width: 300px;
+  }
+  .product-item-img-btn{
+    top: 70%;
   }
   .container-footer-top{
     margin-top: 50px;
