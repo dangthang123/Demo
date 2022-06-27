@@ -569,6 +569,8 @@ max-width: 100%;
       font-size: 10px;
      }
 }
+
+/* +++ Màn 375++++ */
 @media screen and (max-width:376px)  {
   #toggle-header-top{
     display: block;
@@ -624,6 +626,7 @@ max-width: 100%;
   .footer-top-item-comment-2 p{
     font-size: 11px;
   }
+
   .about-top-2 p{
     padding-right: 0px;
   }
@@ -634,11 +637,14 @@ max-width: 100%;
 .navigation-right ul{
   padding-left: 0px;
 }
+.fist-footer-widgets-location{
+  width:85%;
+}
 .location-top{
   padding-top: 15px;
 }
 .location-bottom-1{
-  height: 70px;
+  height: 57px;
 }
   .copyright-tille p{
     font-size: 12px;
