@@ -155,7 +155,18 @@ padding-bottom: 18px;
     background: #ffffff;
    
 }
-#search-box #search-text{
+#search-box-mobi{
+ display:none ;  
+ background: #ffffff;
+}
+#search-text-mobi{
+    outline: none;
+    padding: 5px 5px;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: all 0.25s ease-in-out;
+}
+ #search-text{
     outline: none;
     padding: 5px 5px;
     font-size: 14px;
@@ -163,19 +174,31 @@ padding-bottom: 18px;
     display: none;
     transition: all 0.25s ease-in-out;
 }
-#search-box #search-btn{
+ #search-btn{
  cursor: pointer;
  background-color: #fff;
  border: none;
 
 }
-#search-box #search-btn i:hover{
+#search-btn-mobi{
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+   
+   }
+#search-btn-mobi i:hover{
+    color: #9377bf;
+   }
+   #search-btn i:hover{
     color: #9377bf;
    }
 /* #search-box:hover #search-text,#search-box #search-text:valid {
     display: inline;
 } */
 #search-btn i{
+    font-size: 14px;
+}
+#search-btn-mobi i{
     font-size: 14px;
 }
 #imgmagnifying:hover{
@@ -269,6 +292,7 @@ a{
     width: 70px;
     height: auto;
     border-radius: 50%;
+    padding-bottom: 10px;
 }
 .Cart-item-tille{
    font-size: 14px;
@@ -297,10 +321,36 @@ a{
     justify-content: space-between;
     column-gap: 30px;
     flex-wrap: wrap;
+    position: relative;
 }
 .banner-left{
     overflow: hidden;
     position: relative;
+    width: 750px;
+    background-color: #eeeeee;
+}
+#img-banner-left{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+h2.banner-left-tille-1-1 {
+    position: absolute;
+    top: 38%;
+    left: 37%;
+    font-size: 80px;
+    color: #e1e1e1;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+h3.banner-left-tille-1-2 {
+    top: 50%;
+    position: absolute;
+    left: 53%;
+    font-size: 50px;
+    color: #e1e1e1;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-seri
 }
 .banner-right-bottom{
     margin-top: 27px;
@@ -316,6 +366,7 @@ a{
     position: absolute;
     font-family: 'Pacifico', cursive;
 }
+
 .banner-left-tille-btn{
     left: 73%;
     top: 65%;

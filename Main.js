@@ -20,6 +20,7 @@ $(document).ready(function(){
   $('#search-btn').click(function(){
     $('#search-text').slideToggle();
 });
+
 //   End
 
 // Bắt sự kiện Click vào khoảng trắng
