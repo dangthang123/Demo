@@ -163,16 +163,18 @@ padding-bottom: 18px;
     outline: none;
     padding: 5px 5px;
     font-size: 16px;
+    border: 2px solid black;
     border-radius: 30px;
-    transition: all 0.25s ease-in-out;
+    /* transition: all 0.25s ease-in-out; */
 }
  #search-text{
     outline: none;
     padding: 5px 5px;
     font-size: 14px;
+    border: 2px solid black;
     border-radius: 30px;
     display: none;
-    transition: all 0.25s ease-in-out;
+    /* transition: all 0.25s ease-in-out; */
 }
  #search-btn{
  cursor: pointer;

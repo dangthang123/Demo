@@ -8,10 +8,10 @@
     font-size: 14px;
     border-radius: 30px;
     display: none;
-    transition: all 0.25s ease-in-out;
+    /* transition: all 0.25s ease-in-out; */
     position: absolute;
-    right: 11%;
-    top: 17%;
+    right: 12%;
+    top: 18%;
   }
 }
 
