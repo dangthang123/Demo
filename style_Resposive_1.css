@@ -2,17 +2,6 @@
   .header-menu ul li{
     margin: 10px 4px 0px 20px;
   }
-  #search-box #search-text {
-    outline: none;
-    padding: 5px 5px;
-    font-size: 14px;
-    border-radius: 30px;
-    display: none;
-    /* transition: all 0.25s ease-in-out; */
-    position: absolute;
-    right: 12%;
-    top: 18%;
-  }
 }
 
 /* ++++Màn 1310 ++++ */

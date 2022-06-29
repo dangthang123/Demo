@@ -17,9 +17,9 @@ $(document).ready(function(){
 //   $('#Wish').click(function(){
 //       $('.Wish-List').slideToggle();
 //   });
-  $('#search-btn').click(function(){
-    $('#search-text').slideToggle();
-});
+//   $('#search-btn').click(function(){
+//     $('#search-text').slideToggle();
+// });
 
 //   End
 
